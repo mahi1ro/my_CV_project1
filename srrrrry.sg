@@ -1,0 +1,70 @@
+.h1_hero {
+    display: flex;
+    background-color: #292F36;
+    justify-content: center;
+    align-self: baseline;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 40px
+}/* Profile photo */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 96px;
+height: 96px;
+
+background: url(programmer-1653351_1280.png);
+/* Brand 1 */
+border: 3px solid #12F7D6;
+border-radius: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00e0c6;
+}
+
+.text_mini {
+  font-size: 14px;
+  color: #cfd6dd;
+  line-height: 1.3;
+}э
+
+
+
+.stat {
+  display: flex;
+  align-items: flex-start; 
+  gap: 12px;
+}
+
+
+.number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00e0c6;
+  min-width: 20px; 
+}
+
+.text_mini {
+  font-size: 14px;
+  color: #cfd6dd;
+  line-height: 1.4;
+
+  max-width: 140px; 
+  word-wrap: break-word;
+}
