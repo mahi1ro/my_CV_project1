@@ -68,3 +68,58 @@ flex-grow: 0;
   max-width: 140px; 
   word-wrap: break-word;
 }
+
+<i class="fa-brands fa-html5"></i>
+<i class="fa-brands fa-css3-alt"></i>
+<i class="fa-brands fa-js"></i>
+<i class="fa-brands fa-re
+win shift s
+
+
+.skills {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+}
+
+.skills-header h2 {
+  font-size: 36px;
+  color: #00bcd4;
+}
+
+.skills-header p {
+  font-size: 16px;
+  color: #b0bec5;
+  margin-top: 10px;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px; /* Отступ между блоками */
+}
+
+.skill-box {
+  background-color: #263238;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%; /* Ограничение ширины блоков */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box:hover {
+  background-color: #37474f;
+}
+
+.skill-box h3 {
+  font-size: 24px;
+  color: #00bcd4;
+}
+
+.skill-box p {
+  font-size: 18px;
+  color: #b0bec5;
+}
